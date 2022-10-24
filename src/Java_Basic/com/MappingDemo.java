@@ -9,6 +9,8 @@ public class MappingDemo{
 
 	
 	public static void main(String[] args) {
+		
+		
 		//insert data key value pair 
 		/*
 		 * HashMap<Integer,String> map= new HashMap<Integer, String>(); map.put(1,
