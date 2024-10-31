@@ -3,13 +3,15 @@ package Java_Basic.com;
 public class Constructor {
 
 	public static void main(String[] args) {
+		
 		//what is constructor
 		//class name and method name should me same
 		//constructor executed while class object is create 
-		Constructor obj = new Constructor(2);
+		Constructor obj = new Constructor();
+		obj.m();
 		//Constructor obj1 = new Constructor(3);
 		//Constructor obj2 = new Constructor(2,4);
-		String s1="Md";
+		/*String s1="Md";
 		String s2="Md";
 		System.out.println(s1+""+"/"+""+s2);
 	System.out.println(String.join("/", s1,s2));
@@ -21,7 +23,7 @@ public class Constructor {
 		else {
 			System.out.println("false");
 		}
-	
+	*/
 	}
 	
 	public Constructor() {
@@ -36,6 +38,9 @@ public class Constructor {
 	Constructor(int a, int b) {
 		int c=a+b;
 		System.out.println(c);
+	}
+	public void m() {
+		System.out.println("m method");
 	}
 
 }

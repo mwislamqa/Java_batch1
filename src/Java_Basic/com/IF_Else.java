@@ -3,17 +3,7 @@ package Java_Basic.com;
 public class IF_Else {
 	
 	
-	public static void main(String[] args) {
-		 System.out.println("they can voteuuuuu");
-		//int y=10/0;
-		 int a=29;
-		 float b=2.2f;
-		int  k=(int) (a+b);
 		 
-		 System.out.println(k);
-	//	 byte, short,int ,long,float, double,boolean,char
-	}
-		
 	public static void main(int[] args) {
 	
 		

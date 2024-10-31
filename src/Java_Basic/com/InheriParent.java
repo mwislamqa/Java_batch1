@@ -1,11 +1,14 @@
 package Java_Basic.com;
 
 public class InheriParent {
-	InheriParent(){
-		System.out.println("parent class");
-	}
+	
+	  InheriParent(){
+		  super();
+		  System.out.println("parent class"); }
+	 
 	
 	public void food() {
+		
 		System.out.println("parent food");
 	}
 	public void color() {

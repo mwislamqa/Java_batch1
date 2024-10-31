@@ -51,7 +51,7 @@ public class StringClass {
 		 * }
 		 */
 	
-	/*	
+		
 		Object ohj= new Object();
 		
 		String name="Welcome home";

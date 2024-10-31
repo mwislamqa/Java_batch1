@@ -23,7 +23,7 @@ public class MappingDemo{
 		 * 
 		 * }
 		 */
-		HashMap<Integer,Employee> map1= new HashMap<Integer, Employee>();
+	/*	HashMap<Integer,Employee> map1= new HashMap<Integer, Employee>();
 		Employee emp1=new Employee(01, 4, 21);
 		Employee emp2=new Employee(02, 8, 22);
 		System.out.println(emp1);
@@ -37,6 +37,32 @@ public class MappingDemo{
 			System.out.println(em);
 
 		}
+		*/
+		
+HashMap<Object,String> map=new HashMap<Object, String>();
+		
+		map.put("md", "ratan");
+		map.put(34, "kamal");
+		map.put(36, "harun");
+		map.put(3, "john");
+		/*
+		 * Set set= map.entrySet(); Iterator iterator= set.iterator();
+		 * while(iterator.hasNext()) { Entry me=(Entry)iterator.next();
+		 * //System.out.println("key is:"+me.getKey()+"& value:::" +me.getValue());
+		 * //System.out.println("---------------------");
+		 * //System.out.println(map.containsKey(22));
+		 * //System.out.println(map.isEmpty()); //System.out.println(map.get(33));
+		 * //System.out.println(map.clone()); }
+		 */
+		System.out.println(map.get(33));
+		for(Entry<Object, String> e :map.entrySet()) {
+			System.out.println(e.getKey()+"  -- "+e.getValue());
+			
+		}
+		System.out.println(map.clone());
 	}
 
-}
+		
+	}
+
+

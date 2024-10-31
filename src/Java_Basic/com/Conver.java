@@ -26,7 +26,7 @@ static int a=20;
 	
 	 int a= 12345;
 		int rverse=0;
-		while(a>=1) {
+		while(a!=0) {
 			
 		int reminder = a%10;// reminder =4
 		rverse = rverse*10+reminder;// 0*10+4= rverse=4

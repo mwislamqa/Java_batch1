@@ -9,6 +9,7 @@ public class Demo {
 		int lowderCase=0;
 		int number=0;
 		int spcialCh=0;
+		//int i = 0; i < name.length(); i++
 		for (int i = 0; i < name.length(); i++) {
 			char ch = name.charAt(i);
 			//System.out.println(ch);
@@ -33,10 +34,10 @@ public class Demo {
 				
 			}
 		}
-		System.out.println(uperCase);
-		System.out.println(lowderCase);
-		System.out.println(number);
-		System.out.println(spcialCh);
+		System.out.println("uperCase:"+uperCase);
+		System.out.println("lowderCase:"+lowderCase);
+		System.out.println("number:"+number);
+		System.out.println("spcialCh:"+spcialCh);
 	}
 
 }

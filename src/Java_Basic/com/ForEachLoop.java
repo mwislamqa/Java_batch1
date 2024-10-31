@@ -15,6 +15,18 @@ public class ForEachLoop {
 		System.out.println(i);
 		}
 		//System.out.println(a[0]);
+		
+		for(int k=0; k<10;k++) {
+			
+
+			if(k==3) {
+				//break;
+				continue;//skip
+				
+			}
+			System.out.println(k);
+			
+		}
 	}
 
 }

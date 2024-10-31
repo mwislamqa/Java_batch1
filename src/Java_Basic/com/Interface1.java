@@ -10,10 +10,11 @@ public interface Interface1 {
 	  public  static void display() {
 		  System.out.println("static ");
 	  };
-	  public default void display1() {
+	   public static void display1() {
 		  System.out.println("default");
 	  };
 
-	
+	abstract void chrome();
+	abstract void ff();
 
 }

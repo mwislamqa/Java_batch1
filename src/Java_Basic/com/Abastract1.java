@@ -11,6 +11,8 @@ public abstract class Abastract1 {
 	}
 	
 	public static void main(String[] args) {
+		
+		
 		// we can't do obje of this class
 		//Abastract1 ab= new Abastract1();
 

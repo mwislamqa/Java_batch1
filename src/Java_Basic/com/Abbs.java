@@ -1,6 +1,7 @@
 package Java_Basic.com;
 
 public class Abbs extends Abstract2{
+
 	int a=20;
 	
 	Abbs(int a, String name){
